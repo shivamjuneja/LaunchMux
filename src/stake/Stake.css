@@ -1,0 +1,70 @@
+
+.stake-side-list h6:hover{
+    color:white
+}
+
+.stake-card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1024px) {
+   
+
+    .aboutmcb-left-card,.aboutmcb-right-card{
+        width: 50% !important;
+    }
+    .down-card-stake{
+        max-width: 100% !important;
+    }
+
+    .right-heading1, .content, .first-card{
+        display: none !important;
+    }
+    .right-heading2{
+        margin: 0px !important;
+    }
+    .stake-left{
+        display: none !important;
+    }
+    
+    .stake-right{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:991px) {
+
+    .vemux-left-card{
+        width: 100% !important;
+    }
+
+
+    
+    .aboutmcb-cards{
+        display: block !important;
+    }
+
+    .aboutmcb-left-card{
+        width: 100% !important;
+    }
+
+    .aboutmcb-right-card{
+        margin-left:0px !important;
+        width: 100% !important;
+
+    }
+}
+
+.aboutmcb-cards{
+    max-width: 864px;
+    display: flex;
+}
+.content,.vemux-content{
+    max-width: 864px;
+    color:#6678a9;
+    font-size:15px;
+}
+
+.down-card-stake{
+    max-width: 816px;
+}

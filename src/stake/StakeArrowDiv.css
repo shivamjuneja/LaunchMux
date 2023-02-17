@@ -1,0 +1,395 @@
+.stake-page{
+    /* margin:auto; */
+    max-width: 816px;
+}
+.container-stake {
+    padding: 23px;
+    width: 100%;
+    height: 332px;
+    border-radius: 16px;
+    border: 1px solid #1e263f;
+    background: rgba(25, 33, 55, .5);
+}
+
+.container-stake .header-stake {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.container-stake .header-stake .label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container-stake .header-stake .legend {
+    display: flex;
+    align-items: center;
+}
+
+.container-stake .header-stake .legend .token:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.container-stake .header-stake .legend .token {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container-stake .header-stake .legend .token .mux-image-viewer {
+    margin-right: 8px;
+}
+
+.mux-image-viewer {
+    position: relative;
+    display: inline-block;
+}
+
+.n-image {
+    display: inline-flex;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container-stake .header-stake .legend .token .mux-image-viewer .n-image img {
+    border-radius: unset;
+}
+
+.n-image img {
+    border-radius: inherit;
+}
+
+.container-stake .header-stake .legend .token .apr {
+    font-weight: 600;
+    margin-left: 4px;
+    color: #00d8e2;
+    display: flex;
+    align-items: center;
+}
+
+.tooltip-element__blue,
+.tooltip-element__orange {
+    cursor: pointer;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+}
+
+.tooltip-element__blue {
+    text-decoration-color: rgba(0, 216, 226, .5);
+}
+
+.container-stake .header-stake .legend .token {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container-stake .header-stake .legend .token .mux-image-viewer {
+    margin-right: 8px;
+}
+
+.mux-image-viewer {
+    position: relative;
+    display: inline-block;
+}
+ .container-stake .stake-chart {
+    margin-left: 54px;
+}
+.stake-chart {
+    height: 232px;
+    width: 664px;
+    position: relative;
+}
+.stake-chart .token-box {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.stake-chart .token-box .token-item {
+    position: absolute;
+    pointer-events: visible;
+    height: 56px;
+    min-width: 56px;
+    width: 116px;
+    border-radius: 28px;
+    border: 1px solid #283148;
+    padding: 7px 11px 7px 7px;
+    background: #192137;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+.stake-chart .token-box .token-item.mcb .mux-image-viewer {
+    filter: drop-shadow(0 0 12px rgba(255,255,255,.4));
+}
+.mux-image-viewer {
+    position: relative;
+    display: inline-block;
+}
+.mux-image-viewer.round .n-image img, .mux-image-viewer.round .secondary-image-box {
+    border-radius: 50%;
+}
+.stake-chart .token-box .token-item .label {
+    flex: 1;
+    margin-left: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.stake-chart .token-box .token-item.vemux {
+    left: 328px;
+    top: 0;
+}
+.stake-chart .token-box .token-item.vemux .mux-image-viewer .n-image img {
+    border-radius: unset;
+}
+.n-image img {
+    border-radius: inherit;
+}
+.stake-chart .token-box .token-item.muxlp {
+    right: 4px;
+    top: 0;
+}
+.stake-chart .token-box .token-item.dash {
+    right: 4px;
+    bottom: 0;
+    width: 332px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px dashed #283148;
+    background: #0f1529;
+    cursor: default;
+}
+.stake-chart .token-box .token-item.dash .reward {
+    position: absolute;
+    top: -13px;
+    right: 153px;
+    height: 24px;
+    width: 24px;
+    background: #ffb110;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px rgb(0 2 10 / 10%);
+}
+.stake-chart .token-box .token-item.dash .reward .icon-rewards {
+    margin-left: 1px;
+    font-size: 16px;
+}
+.stake-chart .token-box .token-item.eth {
+    right: 16px;
+    bottom: 12px;
+}
+.stake-chart .token-box .token-item.muxlp .mux-image-viewer {
+    filter: drop-shadow(0 0 12px rgba(255,255,255,.4));
+}
+.stake-chart .token-box .token-item.vemux .mux-image-viewer {
+    filter: drop-shadow(0 0 12px rgba(250,131,55,.4));
+}
+.stake-chart .token-box .token-item.eth .mux-image-viewer {
+    filter: drop-shadow(0 0 12px rgba(161,179,252,.4));
+}
+.stake-chart .token-box .token-item.mux {
+    left: 340px;
+    bottom: 12px;
+}
+.stake-chart .token-box .token-item.mux .mux-image-viewer {
+    filter: drop-shadow(0 0 12px rgba(0,169,179,.4));
+}
+.stake-chart .node-box {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+}
+.stake-chart .node-box .node-item.lock {
+    left: 191px;
+    top: 14px;
+    width: 63px;
+    height: 28px;
+}
+.stake-chart .node-box .node-item {
+    pointer-events: visible;
+    background: rgba(0,216,226,.15);
+    border: 1px solid rgba(0,216,226,.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    color: #00d8e2;
+    cursor: pointer;
+}
+.stake-chart .node-box .node-item .icon {
+    height: 13px;
+    width: 13px;
+    background: rgba(0,216,226,.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+.stake-chart .node-box .node-item .icon svg {
+    height: 13px;
+    width: 13px;
+    fill: #00d8e2;
+}
+.stake-chart .node-box .node-item.stake {
+    top: 70px;
+    right: 27px;
+    width: 70px;
+    height: 28px;
+}
+.stake-chart .node-box .node-item.vest {
+    left: 27px;
+    top: 110px;
+    width: 62px;
+    height: 28px;
+}
+.stake-chart .node-box .node-item.yield {
+    top: 89px;
+    right: 243px;
+}
+.stake-chart .node-box .node-item.yield1, .stake-chart .node-box .node-item.yield {
+    width: 70px;
+    height: 28px;
+    background: rgba(102,120,169,.2);
+    border: 1px solid #6678a9;
+    color: #fff;
+}
+.stake-chart .node-box .node-item.yield1 {
+    top: 108px;
+    right: 27px;
+}
+.stake-chart .node-box .node-item.select {
+    bottom: 20px;
+    left: 190px;
+    color: #fff;
+    width: 64px;
+    height: 40px;
+    border: none;
+    background: none;
+}
+.stake-chart .node-box .node-item.select svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    stroke: #6678a9;
+}
+.stake-chart .node-box .node-item .text {
+    z-index: 10;
+}
+.stake-chart .line-box {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.stake-chart .line-box .line-item.mcb-lock {
+    height: 8px;
+    width: 73px;
+    left: 116px;
+    top: 24px;
+}
+.stake-chart .line-box .line-item {
+    position: absolute;
+    fill: #6678a9;
+    stroke: #6678a9;
+    pointer-events: none;
+}
+.stake-chart .line-box .line-item path {
+    stroke-width: 0;
+}
+.stake-chart .line-box .line-item line {
+    stroke-width: 1px;
+}
+.stake-chart .line-box .line-item.vemux-lock {
+    left: 254px;
+    top: 24px;
+    height: 8px;
+    width: 72px;
+}
+.stake-chart .line-box .line-item.vest-select {
+    left: 57px;
+    bottom: 39px;
+    width: 134px;
+    height: 55px;
+}
+.stake-chart .line-box .line-item path.stroke-path {
+    fill: none;
+    stroke-width: 1px;
+}
+.stake-chart .line-box .line-item.mux-select {
+    bottom: 36px;
+    left: 253px;
+    width: 88px;
+    height: 8px;
+    padding-right: 1px;
+}
+.stake-chart .line-box .line-item.lock-select {
+    top: 44px;
+    left: 218px;
+    width: 8px;
+    height: 129px;
+}
+.stake-chart .line-box .line-item.vest-mcb {
+    top: 58px;
+    left: 54px;
+    width: 8px;
+    height: 52px;
+}
+.stake-chart .line-box .line-item.vemux-yield {
+    left: 382px;
+    top: 56px;
+    height: 34px;
+    width: 8px;
+}
+.stake-chart .line-box .line-item.dash-yield {
+    height: 34px;
+    width: 8px;
+    bottom: 82px;
+    left: 382px;
+}
+.stake-chart .line-box .line-item.dash-yield1 {
+    height: 14px;
+    width: 8px;
+    bottom: 82px;
+    right: 58px;
+}
+.stake-chart .line-box .line-item.stake-yield1 {
+    height: 10px;
+    width: 1px;
+    top: 98px;
+    right: 61.5px;
+}
+.stake-chart .line-box .line-item.stake-muxlp {
+    height: 14px;
+    width: 8px;
+    right: 58px;
+    top: 56px;
+}
+
+@media  (max-width:1024px) {
+    .stake-page{
+        display: none;
+    }
+}

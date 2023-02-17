@@ -1,0 +1,14 @@
+/* (A) PIE CHART */
+.donut {
+    /* (A1) CIRCLE */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    /* (A2) SEGMENTS */
+    background: conic-gradient(#6678a9 0deg 80deg,
+
+            #8cd89d 80deg 190deg,
+
+            #232b48 190deg 360deg);
+}

@@ -1,0 +1,17 @@
+.left-button p{
+    color:white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.right-button p{
+    color:white;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.left-button,.right-button{
+    width: 7.5rem;
+    height: 2rem;
+}

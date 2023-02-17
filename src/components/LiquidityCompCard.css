@@ -1,0 +1,16 @@
+
+
+@media screen and (max-width:992px){
+    .liquidity-comp-card{
+        width: 100% !important;
+    }
+    
+}
+
+.card-left{
+    color: #6678a9;
+}
+
+.card-right{
+    color: white;
+}

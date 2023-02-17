@@ -1,0 +1,29 @@
+.leaderboard-card-header{
+    border: 1px solid  #040818;
+    display: flex;
+    justify-content: space-between;
+}
+.leaderboard-card-header div{
+    color:#6678a9;
+    max-width:19%
+}
+.leaderboardcard-main-mobile{
+    display: none;
+}
+
+.leaderboard-card-body div{
+    color:white;
+    /* max-width:19% */
+}
+
+@media (max-width:1024px) {
+    .leaderboardcard-main{
+        display: none;
+    }
+    .leaderboardcard-main-mobile{
+        display: block !important;
+    }
+}
+.card-right-mobile p{
+    color:white
+}

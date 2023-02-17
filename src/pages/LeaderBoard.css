@@ -1,0 +1,22 @@
+.leaderboard-heading span:hover {
+
+    color: white;
+    cursor: pointer
+}
+
+
+.leaderboard-row {
+    max-width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leaderboard-heading span {
+    color: #6678a9;
+    margin: 10px
+}
+@media screen and (max-width:1024px) {
+    .leaderboard-row{
+        max-width: 100% !important;
+    }
+}
