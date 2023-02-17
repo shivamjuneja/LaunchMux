@@ -10,6 +10,8 @@ import LiquidityCard from './components/LiquidityCard';
 import PieChart from './components/PieChart';
 import AboutMCB from "./stake/AboutMCB";
 import VeMux from "./stake/VeMux";
+import MuxLp from "./stake/MuxLp";
+import Mux from "./stake/Mux";
 function App() {
   return (
    
@@ -22,6 +24,8 @@ function App() {
           <Route exact path="/Redeem" element={<Redeem />} />
           <Route exact path="/aboutmcb" element={<AboutMCB />} />
           <Route exact path="/vemux" element={<VeMux />} />
+          <Route exact path="/MuxLp" element={<MuxLp />} />
+          <Route exact path="/Mux" element={<Mux />} />
       </Routes>
     </Router>
 

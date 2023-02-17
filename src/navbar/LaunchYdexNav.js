@@ -20,33 +20,33 @@ export default function LaunchYdexNav() {
                         <div role="menubar" className="n-menu n-menu--horizontal" >
                             <div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content n-menu-item-content--selected">
-                                    <div className="n-menu-item-content-header" role="none">Trade</div>
+                                    <a href='/'><div className="n-menu-item-content-header" role="none">Trade</div></a>
                                 </div>
                             </div>
                             <div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
-                                    <div className="n-menu-item-content-header" role="none">Liquidity</div>
+                                    <a href='/Liquidity'><div className="n-menu-item-content-header" role="none">Liquidity</div></a>
                                 </div>
                             </div>
                             <div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
-                                    <div className="n-menu-item-content-header" role="none">Stake</div>
+                                    <a href='/Stake'><div className="n-menu-item-content-header" role="none">Stake</div></a>
                                 </div>
                             </div>
                             <div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
-                                    <div className="n-menu-item-content-header" role="none">Leaderboard</div>
+                                    <a href='/LeaderBoard'><div className="n-menu-item-content-header" role="none">Leaderboard</div></a>
                                 </div>
                             </div>
                             <div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
-                                    <div className="n-menu-item-content-header" role="none">Redeem</div>
+                                    <a href='/Redeem'></a><div className="n-menu-item-content-header" role="none">Redeem</div>
                                 </div></div><div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
                                     <div className="n-menu-item-content-header" role="none">Stats</div>
                                 </div></div><div role="menuitem" className="n-menu-item">
                                 <div role="none" className="n-menu-item-content">
-                                    <div className="n-menu-item-content-header" role="none">Referral</div>
+                                <a href='/Refferal'><div className="n-menu-item-content-header" role="none">Referral</div></a>
                                 </div>
                             </div>
                         </div>
